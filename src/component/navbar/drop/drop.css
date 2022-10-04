@@ -1,0 +1,20 @@
+.rs-dropdown{
+  width: 100% !important;
+}
+.rs-dropdown-toggle{
+  width: 100% !important;
+  text-align: end !important;
+
+
+}
+.rs-dropdown-menu{
+  width: 100%;
+}
+.rs-dropdown-item{
+  width: 100%;
+
+}
+.rs-dropdown-toggle:hover{
+background-color: #e92444 !important;
+color: white !important;
+}

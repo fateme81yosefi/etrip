@@ -1,0 +1,62 @@
+body {
+font-family:IRANSans ;
+}
+.background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 90%;
+}
+
+
+.under-cart {
+  width: 380px;
+  height: 100px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.contain{
+    position: absolute;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contain-bottom-cart{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.img-bottom-cart{
+    height: 36px;
+    width: 90px;
+}
+
+.img-topper{
+    background-color: #e68922;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 139px;
+}
+.button-enter{
+  font-size: 14px;
+  margin: 10px 0px !important;
+
+}

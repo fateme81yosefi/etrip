@@ -1,0 +1,15 @@
+.lbl-style{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px 10px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    cursor: pointer;
+    direction: rtl;
+    white-space: nowrap;
+    margin: 0px 7px;
+    font-size: smaller;
+  }

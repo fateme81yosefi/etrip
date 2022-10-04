@@ -1,0 +1,119 @@
+.image-header {
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.93, 1.58, 0.29, 0.45);
+  width: 100%;
+  /* height: 78px; */
+}
+
+.logo-image {
+  width: 50%;
+}
+
+.container-button {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.85rem;
+}
+.background-variable {
+  display: flex;
+  justify-content: center;
+}
+.button-top , .button-top2{
+  font-size: 11px !important;
+  white-space: nowrap !important;
+  padding: 0px 30px !important;
+  border: 1.8px #ffff solid !important;
+  border-radius: 40px !important;
+  margin-right: 10px !important;
+  display: none !important;
+  flex-direction: row !important;
+  background-color: transparent;
+  color: #fff;
+  justify-content: center !important;
+  align-items: center;
+  font-weight: 600 !important;
+}
+.button-top2{
+    display: flex !important;
+}
+.row-class {
+  display: flex;
+  flex-direction: row;
+}
+.sign-in {
+  background-color: #ffff;
+  color: #575757;
+}
+.icon-svg {
+  color: #ffff !important;
+  margin-left: 10px;
+  width: 17px !important;
+  height: 17px !important;
+}
+#dropdown-basic1 {
+  padding: 16px 30px !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  white-space: nowrap !important;
+  border: 1.8px #ffff solid !important;
+  border-radius: 40px !important;
+  margin-right: 10px !important;
+  display: none !important;
+  flex-direction: row-reverse;
+  background-color: transparent;
+  color: #fff;
+  justify-content: center !important;
+  align-items: center !important;
+}
+#dropdown-basic2 {
+    padding: 7px 0px !important;
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    white-space: nowrap !important;
+    border: 1.8px #ffff solid !important;
+    border-radius: 40px !important;
+    margin-right: 10px !important;
+    display: flex !important;
+    flex-direction: row-reverse;
+    background-color: transparent;
+    color: #fff;
+    justify-content: center !important;
+    align-items: center !important;
+    padding-left: 20px !important;
+
+  }
+.img-container-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dropdown-item {
+  border-radius: 9px !important;
+  text-align: end !important;
+
+}
+@media (min-width: 1200px) {
+    .button-top2{
+        display: none !important;
+    }
+  .container-button {
+    width: 60%;
+  }
+  .logo-image {
+    width: 70%;
+  }
+  #dropdown-basic1 {
+    display: flex !important;
+  }
+  #dropdown-basic2 {
+    display: none !important;
+  }
+  .button-top {
+    display: flex !important;
+  }
+}

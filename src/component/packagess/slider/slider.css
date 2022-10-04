@@ -1,0 +1,49 @@
+.slick-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slick-next {
+  margin-right: 40px;
+  opacity: 1;
+  background: grey;
+
+}
+.slick-prev {
+  margin-left: 40px;
+  z-index: 11;
+  background: grey;
+}
+.head-text1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+   text-align: end !important;
+
+}
+.head-text2 {
+  margin-bottom: 20px;
+  text-align: end !important;
+  font-size: 14px;
+  color: #e92444;
+}
+.img-cart1{
+
+width: 300px !important;
+height: 170px !important;
+}
+@media screen and (min-width: 600px) {
+.img-cart1{
+  height:180px ;
+  width:400px;
+}
+
+
+}
+@media screen and (min-width: 992px) {
+  .img-cart1 {
+    width: 435px !important;
+    height: 215px !important;
+}
+  
+}

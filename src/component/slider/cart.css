@@ -1,0 +1,127 @@
+.loc {
+  position: absolute;
+  background: #9d9d9d61;
+  padding: 5px;
+  color: white;
+  margin-bottom: -42%;
+  font-size: 0.8rem;
+
+  margin-right: -29%;
+}
+.contai{
+  
+}
+.subject {
+  position: absolute;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #9d9d9d61;
+  margin-right: 10px;
+  margin-right: -29%;
+  margin-bottom: -61%;
+  font-size: 0.8rem;
+}
+.discount {
+  position: absolute;
+  z-index: 11;
+  background-color: #e92444;
+  color: white;
+  padding: 5px !important;
+  top: 0;
+  left: 0;
+  margin-top: 2% !important;
+  margin-left: 37% !important;
+  border-radius: 8px;
+}
+
+.img-cart {
+  border-radius: 16px;
+}
+.contain-image {
+  position: relative;
+  display: flex !important;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slick-slide img {
+  width: 50%;
+}
+.hr-style {
+  position: absolute;
+  height: 2px;
+}
+hr:not([size]) {
+  height: 1px;
+  width: 40%;
+  color: white;
+  opacity: 1;
+  margin-bottom: -65%;
+}
+@media (min-width: 600px) {
+  
+  .discount {
+    position: absolute;
+    z-index: 11;
+    background-color: #e92444;
+    color: white;
+    padding: 5px !important;
+    top: 0;
+    left: 0;
+    margin-top: 5% !important;
+    margin-left: 18% !important;
+    border-radius: 8px;
+}
+    /* .discount {
+ 
+        margin-top: 7%;
+        margin-left: 16%;
+      } */
+  .slick-slide img {
+    width: 88%;
+  }
+  hr:not([size]) {
+    height: 1px;
+    width: 77%;
+    color: white;
+    opacity: 1;
+    margin-bottom: -123%;
+  }
+  .loc {
+    position: absolute;
+    background: #9d9d9d61;
+    padding: 5px;
+    color: white;
+    margin-bottom: -96%;
+    margin-right: -59%;
+  }
+  .subject {
+    position: absolute;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #9d9d9d61;
+    margin-right: 10px;
+    margin-right: -59%;
+    margin-bottom: -117%;
+  }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 900px) {
+  .loc {
+    margin-bottom: -88%;
+    margin-right: -51%;
+  }
+  .subject {
+    margin-right: -52%;
+    margin-bottom: -113%;
+  }
+}

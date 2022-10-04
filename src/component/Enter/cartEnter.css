@@ -1,0 +1,62 @@
+.inner-cart {
+    width: 380px;
+    height: 320px;
+    background-color: white;
+    border-radius: 20px;
+  
+  }
+  
+.contain-inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+.containe-all{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button-enter{
+    background-color: rgb(230, 137, 34);
+    border: 1px solid rgb(196, 196, 199);
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 80%;
+    padding: 8px 12px;
+    margin: 4px 0px;
+
+}
+.title-enter{
+    font-size: 15px;
+    margin-top: 17px;
+
+}
+.input-enter{
+    width: 80%;
+    padding: 7px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e5e5ea;
+    border-radius: 6px;
+    color: #575757;
+    display: block;
+    font-size: 12px;
+    height: 36px\9;
+    line-height: 1.42857143;
+    padding: 7px 11px;
+    -webkit-transition: border-color .3s ease-in-out;
+    transition: border-color .3s ease-in-out;
+    margin: 10px;
+    text-align: right;
+    font-family: iransansdn !important;
+
+}
+.under-txt{
+    font-size: 10px;
+}

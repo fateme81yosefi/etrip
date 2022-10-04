@@ -1,0 +1,12 @@
+
+
+@font-face {
+    font-family: iransansdn;
+    font-style: normal;
+    font-weight: 300;
+    src: url('./font/iran_sans_fa.ttf');
+
+}
+*{
+    font-family:iransansdn ;
+}

@@ -1,0 +1,16 @@
+
+
+ul {
+    list-style-type: none;
+    padding: 0 !important;
+
+display: flex;
+justify-content: end;
+width: 100%;
+   }
+.hiii{
+    width: 100%  !important;
+}
+.hiii .slick-arrow{
+    display: none !important;
+}

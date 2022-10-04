@@ -1,0 +1,16 @@
+.bx{
+    background-color: white;
+    border:  1px solid salmon;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bx-container{
+    padding-top: 10px;
+
+}
+.inp-pardakht{
+   width: 99.8%;
+}

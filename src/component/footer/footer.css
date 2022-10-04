@@ -1,0 +1,36 @@
+.photos-nav img{
+    width: 150px;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    height: 150px;
+    padding: 10px;
+    background-color: #fff;
+    margin: 45px 6px;
+}
+.line{
+    width: 60%;
+    height: 1px;
+    background-color: #cdcdcd;
+}
+.span-footer{
+    color: #4e4e4e;
+    margin: 40px;
+    text-align: center;
+}
+.contain{
+    width: 100%;
+}
+.photos-nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+
+}
+ul {
+    list-style-type: none;
+   }
+   .span-footer{
+    font-size: smaller !important;
+
+   }

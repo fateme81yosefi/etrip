@@ -1,0 +1,106 @@
+.cart-style{
+  direction: rtl;
+  padding: 25px 40px !important;
+  border: 1px solid #e3e8f3;
+  border-radius: 7px;
+}
+.st-out{
+  border: 1px solid black;
+  padding: 5px;
+  background-color: #f6f6f6;
+  border: 1px solid #e3e8f3;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 2px;
+  text-align: center;
+  user-select: none;
+  font-size: 0.7rem;
+  width: 100%;
+  margin: 0 2px;
+}
+.xv{
+  padding: 3px 3px !important;
+}
+.space-beetween{
+  justify-content: space-between;
+
+}
+.contain-cart{
+  margin: 25px;
+}
+.cart-title{
+  font-size: 0.9rem;
+  font-weight: bolder;
+  margin: 5px 0px 20px 0;
+}
+.sum{
+  background-color: #eefced;
+  border: 1px solid #86d88f;
+  border-radius: 3px;
+  font-weight: bolder;
+}
+.add{
+  color:#86d88f ;
+}
+.bold{
+  font-weight: bold;
+}
+.count{
+  border: none;
+  background-color: #fff;
+}
+.dec{
+  background-color: white ;
+}
+.btn-home{
+  font-weight: 500;
+  padding: 0.625rem 1.5rem 0.5rem 1.5rem;
+  font-size: .75rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  /* background-color:#f93154; */
+  /* color: #fff; */
+  margin-top: 20px;
+}
+.empty{
+  width: 80%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:2% 10% ;
+  text-align: center;
+  padding: 10%;
+  flex-direction: column;
+}
+.empty span{
+  font-size: 2rem;
+  color: gray;
+}
+.btn-pardakht{
+  font-weight: 500;
+  padding: 0.625rem 1.5rem 0.5rem 1.5rem;
+  font-size: .75rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+   background-color:#f93154; 
+   color: #fff; 
+   width: 200px;
+}
+
+@media screen and (min-width: 992px) {
+  .contain-cart{
+    margin: 3% 20%;
+  }
+  .xv{
+    padding: 0px 3px !important;
+  }
+  .btn-pardakht{
+
+
+  }
+}

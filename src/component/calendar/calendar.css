@@ -1,0 +1,18 @@
+.react-persian-j-calendar {
+    direction: rtl;
+    position: absolute !important;
+    margin-top: -195px !important;
+    margin-left: -156px !important;
+    z-index: 25 !important;
+}
+.date-calendar {
+  background: #fff;
+  border: 1px solid #ddd;
+  font-family: inherit;
+  font-size: 10px;
+  padding: 0.4em 0.8em;
+  text-align: center;
+  width: 48%;
+  margin: 4px;
+  text-align: right;
+}

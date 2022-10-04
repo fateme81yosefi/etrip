@@ -1,0 +1,43 @@
+
+.contain-service{
+    text-align: center;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+.description{
+    color: #e92444 !important;
+    word-spacing: -3px;
+    white-space: nowrap;
+    font-size: 17px;
+
+
+}
+.title-service{
+    word-spacing: -3px;
+    color: #575757;
+    font-weight: bold !important;
+
+}
+.back-service{
+    padding: 50px ;
+}
+.responsive{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (min-width: 1200px) {
+ 
+    .responsive{
+        flex-direction: row;
+
+    }
+    .back-service{
+        padding: 34px 202px ;
+    }
+  }
